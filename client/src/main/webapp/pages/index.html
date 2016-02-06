@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Github Repos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <input type="text" data-bind="textInput: user">
+        <button data-bind="click: loadRepos">Load</button>
+        <ol data-bind="foreach: repositories">
+            <li><span data-bind="text: name"></span></li>
+        </ol>
+      
+    </body>
+</html>
